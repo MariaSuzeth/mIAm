@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(to right,#F8EFEA,#F2E9EB);
+}
+
+.footer {
+    background-color: #efe7e4;
+    max-height: 15rem;
+}
+
+#recette {
+    display: none;
+}
+
+.cookies-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#ingredient-list:empty:before {
+    content: "Aucun ingrédient sélectionné pour le moment.";
+    font-size: 0.75rem;
+}
+
+#ingredient-input {
+    width: 40vw;
+}
+
+#temps-preparation {
+    max-width: 100px;
+}
+
+#imgRecette {
+    object-fit: cover;
+}
+
+#return {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color:#e2d9d5;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100% ;
+    justify-content: center;
+    margin-left: 0;
+}
+
+#miam-subtitle {
+    font-family: 'Sacramento', cursive;
+}
+
+#button-element{
+    background-color:#e2d9d5; 
+}
+
+
+
+
